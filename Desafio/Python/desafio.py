@@ -8,11 +8,9 @@ def fibonacci(entry):
     while entry <= 1:
         entry = int(input("Digite um numero diferente de 0 ou 1: "))
 
-    if entry > 2:
+    if entry => 2:
         for i in range(2,entry):
-            if i < 0:
-                list.append(i)
-            elif i > 0:
+            if i > 0:
                 sum = list[i-1] + list[i - 2]
                 if sum > entry:
                     break
