@@ -8,7 +8,7 @@ def fibonacci(entry):
     while entry <= 1:
         entry = int(input("Digite um numero diferente de 0 ou 1: "))
 
-    if entry => 2:
+    if entry >= 2:
         for i in range(2,entry):
             if i > 0:
                 sum = list[i-1] + list[i - 2]
@@ -25,7 +25,7 @@ def cont_string(word, char):
         if i.lower() == char.lower():
             cont += 1
 
-    print(f"O {char} se repete: {cont}")
+    print(f"O {char} em {word} se repete: {cont}")
 
 
 #3
